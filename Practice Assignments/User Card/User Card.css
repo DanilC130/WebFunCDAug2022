@@ -1,0 +1,34 @@
+.container {
+    width: 600px;
+    min-height: 300px;
+    border-radius: 5px;
+    border-style:solid; 
+    border-color: grey;
+}
+.topcard { 
+    height: 100px;
+    background-color: darkcyan;
+    margin-bottom: 40px;
+}
+.img {
+    width: 80px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+.headers {
+    align-items: flex-start;
+    margin-left: 20px;
+
+}
+.marker {
+    width: 10px;
+    margin-right: 5px;
+}
+.traits {
+    max-width: 300px;
+}
+.bluegear {
+    height: 15px;
+    margin-right: 5px;
+}

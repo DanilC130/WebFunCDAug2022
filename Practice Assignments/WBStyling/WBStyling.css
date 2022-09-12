@@ -1,0 +1,15 @@
+.header1 {
+    color: aqua;
+    background-color: black;
+}
+.header2 {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background-color: rebeccapurple;
+}
+.header3 {
+    background-color: lightskyblue;
+    text-align: right;
+    text-decoration: underline;.
+}
