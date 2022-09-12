@@ -1,0 +1,23 @@
+.row {
+    height: 300px;
+    width: 1500px;
+    background-color: cadetblue;
+    display: flex;
+    margin: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img {
+    width: 250px;
+
+}
+#second {
+    background-color: darkslateblue;
+}
+#third {
+    background-color: blue ;
+}
+h1 {
+    text-align: center;
+    color: crimson;
+}

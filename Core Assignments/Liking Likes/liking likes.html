@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="liking likes.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Network</h1>
+    </div>
+    <div>
+        <h1 class="feedhead">Your Feed</h1>
+    </div>
+    <div class="bigbox">
+        <div class="leftbox"><img src="user-circle.png" alt="profileimg" class="user">
+            <a href="#">Add an avatar</a>
+            <h2>James Doe</h2>
+        </div>
+        <div class="bigrightbox">
+            <div class="rightboxes">
+                <div class="tophalf">
+                    <h2>Neil M</h2>
+                    <div class="likes">
+                        <p><span id="topcount">9</span> like(s)</p><button onclick="addtopLike()"
+                            class="likebtn">Like</button>
+                    </div>
+                </div>
+                <div class="bottomhalf">I just set up this new discord bot, let me know what you all think. <a
+                        href="#">link</a>
+                </div>
+            </div>
+            <div class="rightboxes">
+                <div class="tophalf">
+                    <h2>Nichole K</h2>
+                    <div class="likes">
+                        <p><span id="medcount">12</span> like(s)</p><button onclick="addmedLike()"
+                            class="likebtn">Like</button>
+                    </div>
+                </div>
+                <div class="bottomhalf">Just finished my <a href="#">next comic,</a> check it out.
+                </div>
+            </div>
+            <div class="rightboxes">
+                <div class="tophalf">
+                    <h2>Jim R</h2>
+                    <div class="likes">
+                        <p><span id="botcount">9</span> like(s)</p><button onclick="addbotLike()"
+                            class="likebtn">Like</button>
+                    </div>
+                </div>
+                <div class="bottomhalf">I can't stop listening to the <a href="#">new album.</a> Who else is liking it?
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="liking likes.js"></script>
+</body>
+
+</html>
